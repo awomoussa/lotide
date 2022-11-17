@@ -19,11 +19,5 @@ const countLetters = function (sentence) {
   return result;
 }
 
-//running the function is function name followed by ()
-
-
-// result = {i:2, a:1, m:1, t:1, }
-// result =char [1]
-// how to insert the key inside an object 
 
 console.log(countLetters("lighthouse in the house"))
