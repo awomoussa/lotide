@@ -27,17 +27,16 @@ const assertArraysEqual = function (a, b) {
 const letterPositions = function (sentence) {
   const result = {};
   for (let i = 0; i < sentence.length; i ++){
-    let char = sentence[i];
-    if (result[char]) {
-      result[char].push(i);
+    let character = sentence[i];
+    if (result[character]) {
+      result[character].push(i);
     }else {
-      result[char] = [i];
+      result[character] = [i];
     }
     }
-    console.log(result)
     return result;
   }
   
-  // console.log(letterPositions("lighthouse in the house"))
-  // letterPositions("lighthouses"); 
+  console.log(letterPositions("lighthouse in the house"))
+ 
 
