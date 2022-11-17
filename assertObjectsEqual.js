@@ -19,17 +19,6 @@ const eqObjects = function (object1, object2) {
 };
 
 
-// FUNCTION IMPLEMENTATION
-// const assertObjectsEqual = function(actual, expected) {
-//   // Implement me!
-// const inspect = require('util').inspect; // <= add this line// ...
-//   if (eqObjects(actual, expected)) {
-//     console.log(`✅  Assertion Passed: ${actual} === ${expected}`);
-//   } else {
-//     console.log(`🛑  Assertion Failed: ${actual} !== ${expected}`);
-//   }
-// };
-
 const assertObjectsEqual = function (actual, expected) {
   //Implement me!
   const inspect = require('util').inspect; //<= add this line// ...
